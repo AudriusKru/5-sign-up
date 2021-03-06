@@ -8,7 +8,7 @@ body * {
 }
 
 body {
-    
+    background-color: #9fcbe0;
 }
 
 .container {
@@ -25,9 +25,9 @@ body {
     background-color: blue;
 }
 .right-column {
-    width: calc(60% - 60px);
+    width: 60%;
     float: left;
-    padding: 30px;
+    padding: 60px;
     background-color: #fff;
 }
 
@@ -78,7 +78,7 @@ form > .form-row > button {
     text-transform: capitalize;
     cursor: pointer;
 }
-form > .form-row >span {
+form > .form-row > span {
     float: left;
     padding: 5px;
     margin-left: 15px;
