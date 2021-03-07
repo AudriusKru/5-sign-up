@@ -32,10 +32,13 @@ body {
 }
 
 .close {
-
+    display: inline-block;
+    float: right;
+    width: 20px;
+    text-transform: uppercase;
 }
 
-form {   
+.form {   
     display: inline-block;
     width: 100%;
 }
