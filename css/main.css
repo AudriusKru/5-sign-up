@@ -42,6 +42,11 @@ body {
     top: 0;
     right: 0;
 }
+.close:hover {
+    color: #015cda;
+    background-color: #ccc;
+    cursor: pointer;
+}
 form {
     display: inline-block;
     width: 100%;
