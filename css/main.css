@@ -28,6 +28,7 @@ body {
     float: left;
     padding: 60px;
     background-color: #fff;
+    position: relative;
 }
 
 .close {
@@ -37,20 +38,23 @@ body {
     font-size: 30px;
     text-align: center;
     line-height: 57px;
+    position: absolute;
+    top: 0;
+    right: 0;
 }
 form {
     display: inline-block;
     width: 100%;
 }
-form > .from-row {
+form > .form-row {
     display: inline-block;
     width: 100%;
     margin-bottom: 40px;
 }
-form > .from-row:last-of-type {
+form > .form-row:last-of-type {
     margin-bottom: 0;
 }
-form > .from-row > label {
+form > .form-row > label {
     display: inline-block;
     width: 100%;
     margin-top: 5px;
@@ -58,7 +62,7 @@ form > .from-row > label {
     line-height: 20px;
     text-transform: uppercase;
 }
-form > .from-row > input {
+form > .form-row > input {
     display: inline-block;
     width: 100%;
     font-size: 20px;
@@ -66,7 +70,7 @@ form > .from-row > input {
     border: none;
     border-bottom: 2px solid #ccc;
 }
-form > .from-row > button {
+form > .form-row > button {
     float: left;
     padding: 5px;
     padding-left: 25px;
@@ -81,7 +85,7 @@ form > .from-row > button {
     text-transform: capitalize;
     cursor: pointer;
 }
-form > .from-row > span {
+form > .form-row > span {
     float: left;
     padding: 5px;
     margin-left: 15px;
@@ -89,7 +93,7 @@ form > .from-row > span {
     font-size: 16px;
     line-height: 20px;
 }
-form > .from-row > a {
+form > .form-row > a {
     float: left;
     padding: 5px;
     font-size: 16px;
