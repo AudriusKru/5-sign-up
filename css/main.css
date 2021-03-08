@@ -62,7 +62,7 @@ form > .from-row > input {
     border: none;
     border-bottom: 2px solid #ccc;
 }
-form > .from-row > button {
+button {
     float: left;
     padding: 5px;
     padding-left: 25px;
@@ -77,7 +77,7 @@ form > .from-row > button {
     text-transform: capitalize;
     cursor: pointer;
 }
-form > .from-row > span {
+span {
     float: left;
     padding: 5px;
     margin-left: 15px;
@@ -85,7 +85,7 @@ form > .from-row > span {
     font-size: 16px;
     line-height: 20px;
 }
-form > .from-row > a {
+a {
     float: left;
     padding: 5px;
     font-size: 16px;
